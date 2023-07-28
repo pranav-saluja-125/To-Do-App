@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainbox{
+    display: flex;
+    border:1px solid black;
+    width:70%;
+    height:400px;
+    margin:10px auto;
+    padding:10px;
+}
+#leftbox{
+    width:60%;
+    height:100%;
+    /* border:1px solid red; */
+  padding: 5px 10px;
+  background-color: gainsboro;
+}
+p{
+    margin-top: 10px;
+}
+#rightbox{
+    width:40%;
+    height:80%;
+    /* //border:1px solid red; */
+    padding:10px  15px;
+}
+
+#input{
+    display: inline-block;
+    width:380px;
+    height:70px;
+    font-size: 30px;
+    font-weight:500 ;
+    /* border-style: none; */
+    /* border:0px 0px 0px 2px solid blcak; */
+    border-left:2px solid rgb(86, 85, 85);
+    border-right:none;
+    border-top: none;
+    border-bottom: none;
+    padding:2px 8px;
+}
+#input:focus{
+     outline: none;
+}
+#outputbox{
+    /* border:1px solid red; */
+
+    margin-top:10%;
+    width:100%;
+     height:200px;
+    overflow-y:scroll ;
+}
